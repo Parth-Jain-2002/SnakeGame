@@ -22,10 +22,45 @@
     grid-template-rows:repeat(18,1fr);
 }
 
+#scoreBox{
+    position:absolute;
+    top: 9px;
+    right:10px;
+    font-size:36px;
+    font-weight:bold;
+}
+
+#hiscoreBox{
+    position:absolute;
+    top: 49px;
+    right:10px;
+    font-size:36px;
+    font-weight:bold;
+}
+
+#currentSpeed{
+    position:absolute;
+    top: 89px;
+    right:10px;
+    font-size:36px;
+    font-weight:bold;
+}
+
 .head{
-    background-color: red;
+    background:linear-gradient(red,yellow);
+    border: 2px solid purple;
+    transform:scale(1.02);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 20px;
 }
 
 .food{
-    background-color:purple;
+    background: linear-gradient(red,purple);
+    border: .25vmin solid black;
+    border-radius: 4px;
 }
